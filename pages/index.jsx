@@ -44,7 +44,7 @@ function HomePage () {
     return (
         <div className="main home">
             <Helmet>
-                <title>Hipertronics eCommerce - Home</title>
+                <title>Menkuff eCommerce - Home</title>
             </Helmet>
 
 
