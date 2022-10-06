@@ -130,7 +130,7 @@ export default function Footer () {
                                 <h4 className="widget-title">Redes Sociales</h4>
                                 <figure className="widget-body row">
                                     <div className="col-3">
-                                        <ALink href="https://es-la.facebook.com/hipertronics/">
+                                        <ALink href="#">
                                         <LazyLoadImage
                                             src="images/instagram/01.jpg"
                                             alt="instagram 1"
@@ -140,7 +140,7 @@ export default function Footer () {
                                         </ALink>
                                     </div>
                                     <div className="col-3">
-                                        <ALink href="https://www.tiktok.com/tag/hipertronics/">
+                                        <ALink href="#">
                                         <LazyLoadImage
                                             src="images/instagram/02.jpg"
                                             alt="instagram 2"
@@ -150,7 +150,7 @@ export default function Footer () {
                                         </ALink>
                                     </div>
                                     <div className="col-3">
-                                        <ALink href="https://www.instagram.com/hipertronics/?hl=es">
+                                        <ALink href="#">
                                         <LazyLoadImage
                                             src="images/instagram/03.jpg"
                                             alt="instagram 3"
@@ -160,7 +160,7 @@ export default function Footer () {
                                         </ALink>
                                     </div>
                                     <div className="col-3">
-                                        <ALink href="https://www.linkedin.com/company/hipertronics/?originalSubdomain=ec">
+                                        <ALink href="#">
                                         <LazyLoadImage
                                             src="images/instagram/04.jpg"
                                             alt="instagram 4"
@@ -265,7 +265,7 @@ export default function Footer () {
                         </figure>
                     </div>
                     <div className="footer-center">
-                        <p className="copyright">Lidenar S.A eCommerce &copy; 2022. Built with love by LIDENAR S.A.</p>
+                        <p className="copyright">&copy; 2022. Built with love by MENKUFF</p>
                     </div>
                     <div className="footer-right">
                         <div className="social-links">
