@@ -91,7 +91,7 @@ function HomePage () {
                 {/*<RecentCollection products={ latest } loading={ loading } />*/}
             </div>
 
-            <NewsletterModal />
+            {/*<NewsletterModal />*/}
         </div>
     )
 }

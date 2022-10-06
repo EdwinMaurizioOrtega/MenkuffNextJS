@@ -60,10 +60,10 @@ export default function NewsletterModal() {
                     <h4 className="text-uppercase text-dark">Suscribete <span className="text-primary">ahora</span></h4>
                     <h2 className="font-weight-semi-bold">en <span>MENKUFF</span></h2>
                     <p className="text-grey">Y obten un descuento en efectivo en tu primera compra.</p>
-                    <form action="#" method="get" className="input-wrapper input-wrapper-inline input-wrapper-round">
-                        <input type="email" className="form-control email" name="email" id="email2" placeholder="Email address here..." required />
-                        <button className="btn btn-dark" type="submit">ENVIAR</button>
-                    </form>
+                    {/*<form action="#" method="get" className="input-wrapper input-wrapper-inline input-wrapper-round">*/}
+                    {/*    <input type="email" className="form-control email" name="email" id="email2" placeholder="Email address here..." required />*/}
+                    {/*    <button className="btn btn-dark" type="submit">ENVIAR</button>*/}
+                    {/*</form>*/}
                     <div className="form-checkbox justify-content-center">
                         <input type="checkbox" value={ noMore } className="custom-checkbox" id="hide-newsletter-popup" onChange={ handleChange } name="hide-newsletter-popup" required />
                         <label htmlFor="hide-newsletter-popup">No volver a mostrar esta ventana.</label>
