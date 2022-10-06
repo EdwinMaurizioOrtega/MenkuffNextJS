@@ -48,7 +48,7 @@ function HomePage () {
             </Helmet>
 
 
-            <h1 className="d-none">Hipertronics eCommerce - Home</h1>
+            <h1 className="d-none">Menkuff eCommerce - Home</h1>
 
             <div className="page-content">
                 <div className="intro-section">
