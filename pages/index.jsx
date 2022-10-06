@@ -66,7 +66,7 @@ function HomePage () {
 
                 <BannerOneSection />
 
-                <NewsletterSection />
+                {/*<NewsletterSection />*/}
 
                 {/*<VendorSection />*/}
 

@@ -61,7 +61,7 @@ export default function Footer () {
                                 <h4 className="widget-title">Mi cuenta</h4>
                                 <ul className="widget-body">
                                     <li>
-                                        <ALink href="/pages/about-us">Seguimiento de mi pedido</ALink>
+                                        <ALink href="#">Seguimiento de mi pedido</ALink>
                                     </li>
                                     <li>
                                         <ALink href="/pages/cart">Ver carrito</ALink>
@@ -84,7 +84,7 @@ export default function Footer () {
                                 <h4 className="widget-title">Nosotros</h4>
                                 <ul className="widget-body">
                                     <li>
-                                        <ALink href="/pages/about-us">Sobre nosotros</ALink>
+                                        <ALink href="#">Sobre nosotros</ALink>
                                     </li>
                                     <li>
                                         <ALink href="#">Historial de pedidos</ALink>
