@@ -69,13 +69,11 @@ export default function Header ( props ) {
                             <i className="d-icon-bars2"></i>
                         </ALink>
 
-                        {/*<ALink href="/">*/}
-                        {/*    <img src='./images/homee/logo.png' alt="logo" style={{height: '75px'}} />*/}
-                        {/*</ALink>*/}
+                        <ALink href="/">
+                            <img src='./images/home/logo.png' alt="logo" style={{height: '75px'}} />
+                        </ALink>
 
-                        <h2 >
-                            MENKUFF
-                        </h2>
+
 
 
                         <SearchBox />
