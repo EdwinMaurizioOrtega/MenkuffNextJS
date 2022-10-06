@@ -8,7 +8,7 @@ function BannerOneSection () {
             <div className="container">
                 <div className="banner banner-radius" style={ { backgroundImage: "url(images/home/banner/7.jpg)", backgroundColor: "#1c2225" } }>
                     <div className="banner-content">
-                        <h4 className="banner-title text-white mt-0 mt-md-3 ls-m">¡Descarga la aplicación HT PREMIUM!</h4>
+                        <h4 className="banner-title text-white mt-0 mt-md-3 ls-m">¡Descarga la aplicación MENKUFF PREMIUM!</h4>
                         <p className="text-white">Compra rápido y fácil más con nuestra aplicación. Obtenga un enlace para descargar la aplicación en su teléfono.</p>
                         {/*<form action="#" method="get" className="input-wrapper input-wrapper-inline">*/}
                         {/*    <input type="email" className="form-control" name="email" id="email2" placeholder="Enter Your Email..." required />*/}

@@ -31,7 +31,7 @@ export default function Header ( props ) {
             <div className="header-top">
                 <div className="container">
                     <div className="header-left">
-                        <p className="welcome-msg ls-normal">HT Premium - Cashback: Te devolvemos tu DINERO!</p>
+                        <p className="welcome-msg ls-normal">MENKUFF Premium - Cashback: Te devolvemos tu DINERO!</p>
                     </div>
                     <div className="header-right">
                         {/*<div className="dropdown">*/}
@@ -70,7 +70,7 @@ export default function Header ( props ) {
                         </ALink>
 
                         <ALink href="/">
-                            <img src='./images/home/logo.png' alt="logo" style={{height: '75px'}} />
+                            <img src='./images/homee/logo.png' alt="logo" style={{height: '75px'}} />
                         </ALink>
 
                         <SearchBox />
@@ -83,8 +83,8 @@ export default function Header ( props ) {
                             </div>
                             <div className="icon-box-content d-lg-show">
                                 <h4 className="icon-box-title text-dark text-normal">
-                                    <ALink target="_blank" href="https://web.whatsapp.com/send?phone=593939991111&text=Hola." className="text-primary d-inline-block">Ventas WhatsApp</ALink>:</h4>
-                                <p><ALink href="tel:#">093 999 1111</ALink></p>
+                                    <ALink target="_blank" href="https://web.whatsapp.com/send?phone=1786332-9503&text=Hola." className="text-primary d-inline-block">Ventas WhatsApp</ALink>:</h4>
+                                <p><ALink href="tel:#">+1 (786) 332-9503</ALink></p>
                             </div>
                         </div>
                         <span className="divider mr-4"></span>

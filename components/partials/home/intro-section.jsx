@@ -14,27 +14,27 @@ function IntroSection ( props ) {
         <div className="row">
             <div className="col-lg-9 mb-4">
                 <OwlCarousel adClass="owl-theme owl-dot-inner intro-slider animation-slider" options={ introSlider }>
-                    <div className="banner banner-fixed content-middle intro-slide intro-slide1 banner-radius" style={ { backgroundColor: "#f8f8f8" } }>
-                        <figure>
-                            <LazyLoadImage
-                                src="images/home/slides/1.jpg"
-                                alt="Banner"
-                                width="1030"
-                                height="450"
-                            />
-                        </figure>
-                        <div className="banner-content">
-                            <Reveal keyframes={ fadeInLeftShorter } duration={ 1000 }>
-                                <h5 className="banner-subtitle text-capitalize font-weight-normal">Conoce más sobre la emisión de obligaciones</h5>
-                                <h3 className="banner-title text-uppercase font-weight-bold ls-m">Resolución No.</h3>
-                                <div className="banner-price-info font-weight-semi-bold text-body text-uppercase ls-m">
-                                    SCVS-INMV-DNAR-2022-00003181
-                                </div>
-                                <ALink href="https://apollo.hipertronics.us/uploads/files/RESOLUCION_3189_I_EOLP_LIDENAR_SA.pdf" className="btn btn-dark btn-outline btn-rounded">
-                                    Descargar Aquí<i className="d-icon-arrow-right"></i></ALink>
-                            </Reveal>
-                        </div>
-                    </div>
+                    {/*<div className="banner banner-fixed content-middle intro-slide intro-slide1 banner-radius" style={ { backgroundColor: "#f8f8f8" } }>*/}
+                    {/*    <figure>*/}
+                    {/*        <LazyLoadImage*/}
+                    {/*            src="images/home/slides/1.jpg"*/}
+                    {/*            alt="Banner"*/}
+                    {/*            width="1030"*/}
+                    {/*            height="450"*/}
+                    {/*        />*/}
+                    {/*    </figure>*/}
+                    {/*    <div className="banner-content">*/}
+                    {/*        <Reveal keyframes={ fadeInLeftShorter } duration={ 1000 }>*/}
+                    {/*            <h5 className="banner-subtitle text-capitalize font-weight-normal">Conoce más sobre la emisión de obligaciones</h5>*/}
+                    {/*            <h3 className="banner-title text-uppercase font-weight-bold ls-m">Resolución No.</h3>*/}
+                    {/*            <div className="banner-price-info font-weight-semi-bold text-body text-uppercase ls-m">*/}
+                    {/*                SCVS-INMV-DNAR-2022-00003181*/}
+                    {/*            </div>*/}
+                    {/*            <ALink href="https://apollo.hipertronics.us/uploads/files/RESOLUCION_3189_I_EOLP_LIDENAR_SA.pdf" className="btn btn-dark btn-outline btn-rounded">*/}
+                    {/*                Descargar Aquí<i className="d-icon-arrow-right"></i></ALink>*/}
+                    {/*        </Reveal>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                     <div className="banner banner-fixed content-middle intro-slide intro-slide2 banner-radius" style={ { backgroundColor: "#e2e2e3" } }>
                         <figure>
                             <LazyLoadImage
@@ -94,32 +94,32 @@ function IntroSection ( props ) {
                             </figure>
                             <div className="banner-content">
                                 <h3 className="banner-title font-weight-bold text-white ls-m">Productos</h3>
-                                <div className="product-count text-uppercase text-white font-weight-semi-bold">HT</div>
+                                <div className="product-count text-uppercase text-white font-weight-semi-bold">MENKUFF</div>
                                 <span className="divider bg-white"></span>
                                 <ALink href={ { pathname: "/shop" } } className="btn btn-white btn-link btn-underline ls-m">
                                     Ver Catálogo<i className="d-icon-arrow-right"></i></ALink>
                             </div>
                         </div>
                     </div>
-                    <div className="intro-banner mb-4">
-                        <div className="banner banner-fixed content-middle banner-radius overlay-zoom" style={ { backgroundColor: "#eca5a9" } }>
-                            <figure>
-                                <LazyLoadImage
-                                    src="images/home/banner/2.jpg"
-                                    alt="Intro Banner"
-                                    width="330"
-                                    height="215"
-                                />
-                            </figure>
-                            <div className="banner-content">
-                                <h3 className="banner-title font-weight-bold text-white ls-m">Sistema</h3>
-                                <div className="product-count text-uppercase text-white font-weight-semi-bold">Hipertronics</div>
-                                <span className="divider bg-white"></span>
-                                <ALink href="https://app.hipertronics.us/clientes/" className="btn btn-white btn-link btn-underline ls-m">
-                                    Ingresar<i className="d-icon-arrow-right"></i></ALink>
-                            </div>
-                        </div>
-                    </div>
+                    {/*<div className="intro-banner mb-4">*/}
+                    {/*    <div className="banner banner-fixed content-middle banner-radius overlay-zoom" style={ { backgroundColor: "#eca5a9" } }>*/}
+                    {/*        <figure>*/}
+                    {/*            <LazyLoadImage*/}
+                    {/*                src="images/home/banner/2.jpg"*/}
+                    {/*                alt="Intro Banner"*/}
+                    {/*                width="330"*/}
+                    {/*                height="215"*/}
+                    {/*            />*/}
+                    {/*        </figure>*/}
+                    {/*        <div className="banner-content">*/}
+                    {/*            <h3 className="banner-title font-weight-bold text-white ls-m">Sistema</h3>*/}
+                    {/*            <div className="product-count text-uppercase text-white font-weight-semi-bold">Hipertronics</div>*/}
+                    {/*            <span className="divider bg-white"></span>*/}
+                    {/*            <ALink href="https://app.hipertronics.us/clientes/" className="btn btn-white btn-link btn-underline ls-m">*/}
+                    {/*                Ingresar<i className="d-icon-arrow-right"></i></ALink>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </div>

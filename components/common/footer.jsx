@@ -10,7 +10,7 @@ export default function Footer () {
                     <div className="row align-items-center">
                         <div className="col-lg-3">
                             <ALink href="market1.html" className="logo-footer">
-                                <img src="images/home/footer-logo.png" alt="logo-footer" width="153"
+                                <img src="images/home/footeer-logo.png" alt="logo-footer" width="153"
                                     height="44" />
                             </ALink>
 
@@ -36,15 +36,15 @@ export default function Footer () {
                                 <ul className="widget-body">
                                     <li>
                                         <label>Teléfono: </label>
-                                        <ALink href="tel:093 999 1111">093 999 1111</ALink>
+                                        <ALink href="tel:+1 (786) 332-9503">+1 (786) 332-9503</ALink>
                                     </li>
                                     <li>
                                         <label>Correo: </label>
-                                        <ALink href="mailto:ventasdigitales@hipertronics.us">ventasdigitales@hipertronics.us</ALink>
+                                        <ALink href="mailto:financiero@menkuff.com">financiero@menkuff.com</ALink>
                                     </li>
                                     <li>
                                         <label>Dirección: </label>
-                                        <ALink href="#">Padre Aguirre 9-68, Cuenca, Ecuador</ALink>
+                                        <ALink href="#">Miami, Florida</ALink>
                                     </li>
                                     <li>
                                         <label>DIAS LABORABLES / HORAS: </label>
