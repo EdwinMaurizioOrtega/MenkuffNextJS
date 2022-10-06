@@ -9,10 +9,13 @@ export default function Footer () {
                 <div className="footer-top">
                     <div className="row align-items-center">
                         <div className="col-lg-3">
-                            <ALink href="market1.html" className="logo-footer">
-                                <img src="images/home/footeer-logo.png" alt="logo-footer" width="153"
-                                    height="44" />
-                            </ALink>
+                            {/*<ALink href="market1.html" className="logo-footer">*/}
+                            {/*    <img src="images/home/footeer-logo.png" alt="logo-footer" width="153"*/}
+                            {/*        height="44" />*/}
+                            {/*</ALink>*/}
+                            <h2 style={{color: "white"}}>
+                                MENKUFF
+                            </h2>
 
                         </div>
                         <div className="col-lg-4 widget-newsletter mb-4 mb-lg-0">
